@@ -134,14 +134,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Communication and Collaboration"
-              to="/team"
+              to="/communication"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="CRM"
-              to="/contacts"
+              to="/crm"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -149,7 +149,7 @@ const Sidebar = () => {
             <Item
               title="Procurement and Inventory Management"
               
-              to="/invoices"
+              to="/Procurement"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -163,8 +163,8 @@ const Sidebar = () => {
               Pages
             </Typography>
             <Item
-              title="Access and User Management"
-              to="/form"
+              title="AccessandUserManagement"
+              to="/accessandusermanagement"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -172,7 +172,7 @@ const Sidebar = () => {
             <Item
               title="Analytics and Reporting"
               
-              to="/calendar"
+              to="/analytics"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -189,7 +189,7 @@ const Sidebar = () => {
             <Item
               title="Finance and Accounting"
               
-              to="/bar"
+              to="/finance"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -197,14 +197,14 @@ const Sidebar = () => {
           
             <Item
               title="Project Management"
-              to="/line"
+              to="/projectmanagement"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="HRM"
-              to="/geography"
+              to="/Hrm"
               icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
