@@ -7,6 +7,7 @@ import Communication from "./scenes/communication";
 
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
+import AccessandUserManagement from "./scenes/accessandusermanagement";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/communication" element={< Communication/>} />
+              <Route path="/accessandusermanagement" element={<AccessandUserManagement/>} />
              
             </Routes>
           </main>
